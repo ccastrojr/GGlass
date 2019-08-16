@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+    margin-top: 7px;
+}
+
+article {
+    margin-bottom: 800px;
+}
+
+article h1 {
+    font-size: 15pt;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0px;
+}
+
+article h2 {
+    margin-top:5px;
+    margin-bottom: 0px;
+    font-size: 13pt;
+    color: #666;
+}
+
+article img.img-dir {
+    display: block;
+    float: right;
+    margin-left: 7px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+article img.c-sombra {
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+form {
+   width: 700px;
+   margin: auto;
+}
+
+input, textarea {
+   font-weight: normal;
+   font-size: 12pt;
+   background-color: rgba(255, 255, 255, 0.8);
+}
+
+label {
+   font-size: 12pt;
+}
+
+input:hover {
+   background-color: rgba(0, 0, 0, 0.005);
+}
+
+legend {
+   color: #888;
+   font-weight: 500;
+   font-size: 14pt;
+}
+
+fieldset {
+   border-color: #cecece;
+   margin: 10px;
+}
+
+fieldset#mensagem p label#lblMsg {
+   display: block;
+   padding-bottom: 15px;
+}
+
+fieldset#mensagem textarea {
+   display: block;
+   margin-left: 5%;
+}
+
+form button#btnEnviar {
+   border: 1 solid rgba(0, 0, 0, 0.8);
+   font-size: 12pt;
+   cursor: pointer;
+   font-weight: bold;
+   color: #888;
+   background-color: #fff;
+   padding: 5px;
+   margin: 0px 0px 10px 10px;
+   width: 80px;
+}
+
+form button#btnEnviar:hover {
+   background-color: #888;
+   color: #fff;
+   transition: all .1s ease-in-out;
+}
+
+fieldset#sexo {
+   width: 340px;
+}
+
+fieldset#usuario {
+   background: url('../_imagens/icone-contato.png') no-repeat 100% 95%;
+}
+
+fieldset#endereco {
+   background: url('../_imagens/icone-endereco.png') no-repeat 100% 95%;
+}
+
+fieldset#mensagem {
+   background: url('../_imagens/icone-mensagem.png') no-repeat 100% 95%;
+}
+
+fieldset#pedido {
+   background: url('../_imagens/icone-pagamento.png') no-repeat 100% 95%;
+}
